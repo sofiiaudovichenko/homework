@@ -46,6 +46,14 @@ body {
     color: #2196F3; 
 }
 
+.studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
 .contact-header {
     font-weight: 500;
     font-size: 14px;
@@ -211,4 +219,63 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+
+/*portfolio section*/
+.portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.list-filters-portfolio-section,
+.list-portfolio-section {
+    list-style: none;
+}
+
+.button-portfolio-section {
+    width: 128px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.button-portfolio-section:hover,
+.button-portfolio-section:active {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.list-item-portfolio-section {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.title-list-item-portfolio-section {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.type-item-portfolio-section {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
