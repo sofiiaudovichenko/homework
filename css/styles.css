@@ -84,14 +84,13 @@ body {
 }
 
 .button-main-section {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;  
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    width: 200px;
-    height: 50px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -113,7 +112,6 @@ body {
 }
 
 .description-info-section {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -170,7 +168,6 @@ body {
 }
 
 .profession-list-item-contact-section {
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -199,8 +196,10 @@ body {
 }
 
 .address-footer {
-    font-weight: 400;
     font-style: normal;
+}
+
+.our-address-footer {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -212,8 +211,6 @@ body {
 }
 
 .contact-footer {
-    font-weight: 400;
-    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -236,10 +233,10 @@ body {
 }
 
 .button-portfolio-section {
-    width: 128px;
-    height: 38px;
+    font-family: inherit;
     background: #F5F4FA;
-    border-radius: 4px;font-weight: 500;
+    border-radius: 4px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -273,7 +270,6 @@ body {
 }
 
 .type-item-portfolio-section {
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
